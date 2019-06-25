@@ -1,0 +1,38 @@
+{
+  "name": "gage",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "commit": "changed=0 \ngit remote update && git status -uno | grep -q 'Your branch is behind' && changed=1\nif [ $changed = 1 ]; then\n    echo \"***WARNING***\n pull latest\";\nelse\n npx git-cz\nfi",
+    "cm": "changed=0 \ngit remote update && git status -uno | grep -q 'Your branch is behind' && changed=1\nif [ $changed = 1 ]; then\n    echo \"***WARNING***\n pull latest\";\nelse\n npx git-cz\nfi"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook"
+    }
+  },
+  "release": {
+    "repositoryUrl": "git@github.com:kehittamo/gage.git",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ]
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/release-notes-generator": "^7.1.4",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^2.2.0",
+    "semantic-release": "^15.13.3"
+  }
+}

@@ -1,0 +1,24 @@
+/**
+ * Editor
+ *
+ * Styles for the Gutenberg Editor.
+ *
+ * @since 1.0.0
+ */
+
+@import "common/helpers";
+@import "common/variables";
+@import "common/fonts";
+
+.editor-styles-wrapper {
+  background-color: $brand-background;
+  // @import "normalize-scss";
+  > .editor-writing-flow {
+    font-family: $font-primary;
+    color: $brand-primary;
+  }
+  .wp-block {
+    max-width: 100%;
+  }
+  @import "blocks/blocks";
+}

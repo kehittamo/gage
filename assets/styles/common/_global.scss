@@ -1,0 +1,23 @@
+/**
+ * Global
+ *
+ * Global styles. Recommendation is to keep these at a minimal
+ * and do most of the styling on block level.
+ *
+ * @since 1.0.0
+ */
+
+html {
+  @include rem-baseline(75%);
+  @media screen and (min-width: map-get($grid-breakpoints, medium)) {
+    @include rem-baseline;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-primary;
+  color: $brand-primary;
+  background-color: $brand-background;
+}

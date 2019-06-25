@@ -1,0 +1,26 @@
+/**
+ * Variables
+ *
+ * @since 1.0.0
+ */
+
+$content-mobile: 320px;
+$content-narrow: 480px;
+$content-medium: 992px;
+$content-wide: 1440px;
+$content-full: 1784px;
+
+$grid-breakpoints: (
+  mobile: $content-mobile,
+  narrow: $content-narrow,
+  medium: $content-medium,
+  wide: $content-wide,
+  full: $content-full
+);
+
+$color-black: #000;
+$color-white: #fff;
+
+$brand-primary: $color-black;
+$brand-secondary: $color-white;
+$brand-background: $color-white;

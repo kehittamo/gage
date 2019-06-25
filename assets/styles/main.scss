@@ -1,0 +1,17 @@
+/**
+ * Main
+ *
+ * Styles for frontend.
+ *
+ * @since 1.0.0
+ */
+
+// @import "normalize-scss";
+@import "common/helpers";
+@import "common/variables";
+@import "common/fonts";
+@import "common/global";
+@import "components/wp-classes";
+@import "components/header";
+@import "components/footer";
+@import "blocks/blocks";
