@@ -10,6 +10,11 @@
 @import "common/variables";
 @import "common/fonts";
 
+// Fixes Seravo's footer overlaying some elements.
+.edit-post-layout__content {
+  padding-bottom: 3rem;
+}
+
 .editor-styles-wrapper {
   background-color: $brand-background;
   // @import "normalize-scss";
