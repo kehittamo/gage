@@ -21,7 +21,7 @@ const routes = new Router({
   // Home page
   home,
   // Example: 'About Us' page, note the change from about-us to aboutUs.
-  // aboutUs,
+  aboutUs,
 });
 
 // Load Events
