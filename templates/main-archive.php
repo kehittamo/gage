@@ -48,6 +48,13 @@ $archive_id = get_posts( $args )[0] ?? 0;
 					</article>
 					<?php
 				endwhile;
+				if ( have_posts() ) :
+					?>
+					<div class="main__pagination">
+						<?php echo paginate_links(); ?>
+					</div>
+					<?php
+				endif;
 			endif;
 			?>
 	</div>
