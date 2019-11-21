@@ -10,7 +10,7 @@
 ?>
 
 <main class="main main--404">
-	<h1 class="main__title">404</div>
+	<h1 class="main__title">404</h1>
 	<div class="main__content">
 		<?php pll_esc_html_e( 'Sorry, but the page you were trying to view does not exist.', 'gage' ); ?>
 	</div>
