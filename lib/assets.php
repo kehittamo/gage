@@ -26,6 +26,6 @@ function assets() {
 	wp_register_style( 'wp-block-library', '' );
 
 	wp_enqueue_style( 'gage/css', get_template_directory_uri() . '/dist/styles/main.min.css', false, CacheBuster::bust(), 'all' );
-	wp_enqueue_script( 'gage/js', get_template_directory_uri() . '/dist/scripts/main.min.js', [ 'jquery' ], CacheBuster::bust(), true );
+	wp_enqueue_script( 'gage/js', get_template_directory_uri() . '/dist/scripts/main.min.js', array( 'jquery' ), CacheBuster::bust(), true );
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100 );

@@ -13,14 +13,14 @@
  */
 
 // Includes.
-$gage_includes = [
+$gage_includes = array(
 	'lib/class-cachebuster.php', // Cache busting.
 	'lib/extras.php',            // Custom functions.
 	'lib/localization.php',      // Polylang fallback.
 	'lib/setup.php',             // Theme setup.
 	'lib/assets.php',            // Assets inclusion.
 	'lib/blocks.php',            // Gutenberg blocks.
-];
+);
 
 foreach ( $gage_includes as $file ) {
 	$filepath = locate_template( $file );

@@ -8,15 +8,15 @@
  * @since 1.0.0
  */
 
-$args = [
+$args = array(
 	'post_type'      => 'page',
-	'post_status'    => [ 'publish', 'private' ],
+	'post_status'    => array( 'publish', 'private' ),
 	'fields'         => 'ids',
 	'posts_per_page' => 1,
 	'no_found_rows'  => true,
 	'meta_key'       => '_wp_page_template',
 	'meta_value'     => 'templates/template-archive.php',
-];
+);
 
 $archive_id = get_posts( $args )[0] ?? 0;
 ?>

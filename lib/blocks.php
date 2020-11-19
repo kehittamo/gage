@@ -12,7 +12,7 @@ namespace Kehittamo\Gage\Block;
 use Kehittamo\Gage\CacheBuster;
 
 // These will be auto-allowed
-$kehittamo_gage_allowed_blocks = [];
+$kehittamo_gage_allowed_blocks = array();
 
 $blocks_dir = new \DirectoryIterator( __DIR__ . '/../blocks' );
 foreach ( $blocks_dir as $fileinfo ) {

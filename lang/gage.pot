@@ -1,103 +1,21 @@
+# Copyright (C) 2020 gage
+# This file is distributed under the same license as the gage package.
 msgid ""
 msgstr ""
+"Project-Id-Version: gage\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Kehittämö\n"
+"Last-Translator: Kehittämö <asiakaspalvelu@kehittamo.fi>\n"
+"Report-Msgid-Bugs-To: https://kehittamo.fi\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: 404.php:4
-msgid "Sorry, but the page you were trying to view does not exist."
-msgstr ""
-
-#: base.php:14
-msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
-
-#: functions.php:22
-msgid "Error locating %s for inclusion"
-msgstr ""
-
-#: index.php:5 search.php:5
-msgid "Sorry, no results were found."
-msgstr ""
-
-#: lib/extras.php:31
-msgid "Continued"
-msgstr ""
-
-#: lib/setup.php:30
-msgid "Primary Navigation"
-msgstr ""
-
-#: lib/setup.php:57
-msgid "Primary"
-msgstr ""
-
-#: lib/setup.php:66
-msgid "Footer"
-msgstr ""
-
-#: lib/titles.php:13
-msgid "Latest Posts"
-msgstr ""
-
-#: lib/titles.php:18
-msgid "Search Results for %s"
-msgstr ""
-
-#: lib/titles.php:20
-msgid "Not Found"
-msgstr ""
-
-#: templates/comments.php:9
-msgctxt "comments title"
-msgid "One response to &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-
-#: templates/comments.php:19
-msgid "&larr; Older comments"
-msgstr ""
-
-#: templates/comments.php:22
-msgid "Newer comments &rarr;"
-msgstr ""
-
-#: templates/comments.php:31
-msgid "Comments are closed."
-msgstr ""
-
-#: templates/content-page.php:2 templates/content-single.php:11
-msgid "Pages:"
-msgstr ""
-
-#: templates/entry-meta.php:2
-msgid "By"
-msgstr ""
-
-#. Theme Name of the plugin/theme
-msgid "Sage Starter Theme"
-msgstr ""
-
-#. Theme URI of the plugin/theme
-msgid "https://roots.io/sage/"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"Sage is a WordPress starter theme. <a href=\"https://github.com/roots/sage"
-"\">Contribute on GitHub</a>"
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Roots"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://roots.io/"
-msgstr ""
-
-#. Template Name of the plugin/theme
-msgid "Custom Template"
+#: htdocs/wp-content/themes/tyoturvallisuuspakki/templates/template-archive.php:3
+msgid "Archive"
 msgstr ""
